@@ -1,0 +1,179 @@
+:root{
+
+    --primary:#1E3A8A;
+    --secondary:#F4B400;
+    --light:#F8F9FA;
+    --dark:#1F2937;
+    --gray:#6C757D;
+    --white:#FFFFFF;
+
+}
+
+/*BODY*/
+
+body{
+
+    background:#f5f6f8;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*NAVBAR*/
+
+.navbar{
+
+    background:var(--primary)!important;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.12);
+
+}
+
+.navbar-brand{
+
+    color:var(--white)!important;
+
+    font-weight:bold;
+
+    font-size:1.4rem;
+
+}
+
+.nav-link{
+
+    color:white!important;
+
+    margin-left:10px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--secondary)!important;
+
+}
+
+.nav-link.active{
+
+    color:var(--secondary)!important;
+
+    font-weight:bold;
+
+}  
+
+.btn-out:hover{
+    background-color: var(--secondary);
+    border-color: #1F2937;
+    color:var(--primary)
+
+}
+
+/*CARDS*/
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+.price{
+
+    color:var(--primary)!important;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+/*BOTONES*/
+
+.btn-primary{
+
+    background:var(--secondary);
+
+    border:none;
+
+    color:black;
+
+}
+
+.btn-primary:hover{
+
+    background:#e0a800;
+
+    color:black;
+
+}
+
+.btn-danger{
+
+    border-radius:8px;
+
+}
+
+/*TITULOS*/
+
+h1,h2,h3,h4,h5{
+
+    color:var(--primary);
+
+    font-weight:bold;
+
+}
+
+.form-select{
+
+    border-radius:8px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 0 0 .15rem rgba(244,180,0,.3);
+
+}
+
+/*LOGIN*/
+
+.login-card{
+
+    max-width:430px;
+
+    margin:auto;
+
+}
+
+.container{
+
+    max-width:1200px;
+
+}
+
+/*ALERTAS*/
+
+.alert{
+
+    border-radius:10px;
+
+}
+
